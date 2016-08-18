@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" href="Content/mobile-reset.css" />
+    <link rel="stylesheet" href="Content/mobile-main.css" />
+    <title>直播列表</title>
+</head>
+<body>
+    <div class="mainWrap">
+        <header id="header">
+            <h1>卓软点播系统</h1>
+            <nav class="menu delSpace">
+                <span></span>
+                <a href="userInfo.html"></a>
+                <a href="login.html"></a>
+            </nav>
+        </header>
+        <form id="searchForm" method="get" action="search.html">
+            <div class="searchBox delSpace">
+                <div id="searchWrap">
+                    <input type="text" id="search" name="keyword" placeholder="轻击此处输入关键字…" />
+                </div>
+                <input type="submit" id="submitBtn" value="搜索" />
+            </div>
+        </form>
+        <nav class="head delSpace" id="mainNav">
+            <div>
+                <a href="index.html">首页</a>
+                <a href="#" class="menu">点播</a>
+                <a href="broadcastList.html">直播</a>
+                <a href="noticeList.html">公告</a>
+            </div>
+            <div id="secondNav">
+                <a href="#">高一</a>
+                <a href="#">高二</a>
+            </div>
+        </nav>
+        <div class="box">
+            <article class="headerBox">
+                <header>直播列表</header>
+            </article>
+            <div>
+                <ul data-itemWidth="150" id="broadcast" class="delSpace autoMargin">
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Content/images/live.jpg" width="150" height="100" alt="" /></a>
+                        <a href="#">直播列表直播列表直播列表</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottomPush"></div>
+    </div>
+    <footer class="main">&copy; 2004-2013 深圳市远志资讯科技开发有限公司</footer>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/mobile-common.js"></script>
+</body>
+</html>
